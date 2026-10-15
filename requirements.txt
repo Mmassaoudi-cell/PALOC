@@ -1,0 +1,14 @@
+# Exact versions used for all reported results (Python 3.13, Windows 11, CUDA 12.8 nightly build of PyTorch).
+# A stable PyTorch >= 2.6 for your platform (https://pytorch.org) can be used instead of the nightly build below.
+numpy==2.4.1
+scipy==1.16.3
+pandas==2.3.3
+scikit-learn==1.8.0
+torch==2.12.0.dev20260326+cu128
+pandapower==3.3.1
+numba==0.65.1
+xgboost==3.2.0
+lightgbm==4.6.0
+catboost==1.2.10
+optuna==4.9.0
+PyYAML==6.0.3

@@ -1,0 +1,94 @@
+{
+ "PCA": {
+  "ieee14": {
+   "k": 5
+  },
+  "ieee39": {
+   "k": 10
+  },
+  "ieee118": {
+   "k": 50
+  },
+  "ieee14p2": {
+   "k": 15
+  },
+  "ieee39p2": {
+   "k": 200
+  },
+  "ieee118p2": {
+   "k": 200
+  }
+ },
+ "IForest": {
+  "ieee14": {
+   "n_estimators": 300,
+   "max_features": 1.0
+  },
+  "ieee39": {
+   "n_estimators": 100,
+   "max_features": 0.5
+  },
+  "ieee118": {
+   "n_estimators": 300,
+   "max_features": 0.5
+  },
+  "ieee14p2": {
+   "n_estimators": 100,
+   "max_features": 0.5
+  },
+  "ieee39p2": {
+   "n_estimators": 300,
+   "max_features": 0.5
+  },
+  "ieee118p2": {
+   "n_estimators": 100,
+   "max_features": 0.5
+  }
+ },
+ "OCSVM": {
+  "ieee14": {
+   "nu": 0.01,
+   "gamma": 3
+  },
+  "ieee39": {
+   "nu": 0.01,
+   "gamma": 3
+  },
+  "ieee118": {
+   "nu": 0.01,
+   "gamma": 3
+  },
+  "ieee14p2": {
+   "nu": 0.01,
+   "gamma": 3.0
+  },
+  "ieee39p2": {
+   "nu": 0.01,
+   "gamma": 1.0
+  },
+  "ieee118p2": {
+   "nu": 0.05,
+   "gamma": 1.0
+  }
+ },
+ "kNN": {
+  "ieee14": {
+   "k": 20
+  },
+  "ieee39": {
+   "k": 20
+  },
+  "ieee118": {
+   "k": 20
+  },
+  "ieee14p2": {
+   "k": 1
+  },
+  "ieee39p2": {
+   "k": 1
+  },
+  "ieee118p2": {
+   "k": 1
+  }
+ }
+}

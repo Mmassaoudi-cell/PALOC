@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+catboost_info/
+
+# Generated data, results and logs
+data/
+raw_data/
+results/
+logs/
+*.npz
+*.csv
+*.db
+BENCHMARK_WTL.csv
+smoke.log
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+*.h5
+
+# Paper assets (not distributed with the code)
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.eps
+*.svg
+*.tex
+*.bib
+figures/
+tables/
+paper/
+
+# IDE / OS
+.vscode/
+.vs/
+.idea/
+.DS_Store
+Thumbs.db
+.env
